@@ -1,0 +1,11 @@
+package ncurses
+
+modules = Ncurses, Main
+
+sourcedir = src
+main = Main
+executable = example
+
+makefile = Makefile
+libs = ncurses
+objs = ncurses_extra.o, ncurses_extra.h
